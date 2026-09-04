@@ -100,9 +100,8 @@ plotted against the setpoint.
 
 `numpy`, `scipy`, `gym`, `pandas`, `matplotlib`
 
-## Known issue
+## Usage
 
-The notebook currently loads the setpoint trajectory via
-`BR3('Trajectory2.csv')`, but the trajectory file in this repo is named
-`Sample_Trajectory.csv` — update the path (or rename the file) before
-running.
+The notebook loads the setpoint trajectory via `BR3('Trajectory2.csv')` —
+change this path to point at `Sample_Trajectory.csv` (or your own setpoint
+CSV) accordingly before running.
